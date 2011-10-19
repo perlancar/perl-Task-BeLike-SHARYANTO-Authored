@@ -22,13 +22,11 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg App::HTMLCalendarMonth::Indonesia
 
-=pkg App::LedgerUtils
-
 =pkg App::OrgUtils
 
-=pkg App::perlmv
-
 =pkg App::UniqFiles
+
+=pkg App::perlmv
 
 =pkg Array::Find
 
@@ -48,13 +46,13 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Config::Ini::OnDrugs
 
-=pkg Config::Tree
+=pkg Data::Dump::Ala::SHARYANTO
 
 =pkg Data::Dump::OneLine
 
-=pkg Data::Dump::Partial
-
 =pkg Data::Dump::PHP
+
+=pkg Data::Dump::Partial
 
 =pkg Data::Dump::Ruby
 
@@ -66,11 +64,11 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Data::Format::Pretty::JSON
 
-=pkg Data::Format::Pretty::Perl
-
 =pkg Data::Format::Pretty::PHP
 
 =pkg Data::Format::Pretty::PHPSerialization
+
+=pkg Data::Format::Pretty::Perl
 
 =pkg Data::Format::Pretty::Ruby
 
@@ -96,11 +94,15 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg HTTP::Daemon::UNIX
 
+=pkg LWP::Protocol::http::SocketUnixAlt
+
 =pkg Language::Expr
 
 =pkg Ledger::Parser
 
 =pkg Lingua::EN::Number::Format::MixWithWords
+
+=pkg Lingua::EN::Words2Nums::Pat
 
 =pkg Lingua::ID::Number::Format::MixWithWords
 
@@ -120,8 +122,6 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Log::Dispatch::Dir
 
-=pkg LWP::Protocol::http::SocketUnixAlt
-
 =pkg Object::BlankStr
 
 =pkg Object::NulStr
@@ -138,6 +138,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Parse::Netstat
 
+=pkg Parse::Number::EN
+
 =pkg Parse::Number::ID
 
 =pkg Parse::PhoneNumber::ID
@@ -147,6 +149,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Pod::Weaver::Plugin::SubSpec
 
 =pkg Process::KillTree
+
+=pkg SHARYANTO::Utils
 
 =pkg Setup::File
 
@@ -159,8 +163,6 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Setup::Text::Snippet
 
 =pkg Setup::Unix::User
-
-=pkg SHARYANTO::Utils
 
 =pkg Sub::Spec
 
@@ -195,8 +197,6 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Sub::Spec::HTTP::Server
 
 =pkg Sub::Spec::Object
-
-=pkg Sub::Spec::Response::Format
 
 =pkg Sub::Spec::Runner
 
