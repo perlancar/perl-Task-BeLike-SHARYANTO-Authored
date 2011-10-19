@@ -102,8 +102,6 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Lingua::EN::Number::Format::MixWithWords
 
-=pkg Lingua::EN::Words2Nums::Pat
-
 =pkg Lingua::ID::Number::Format::MixWithWords
 
 =pkg Lingua::ID::Nums2Words
