@@ -76,7 +76,7 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Data::ModeMerge
 
-=pkg Data::Sah::Util
+=pkg Data::Sah
 
 =pkg Devel::EndStats
 
