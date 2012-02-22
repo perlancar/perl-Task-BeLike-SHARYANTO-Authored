@@ -40,6 +40,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Business::ID::NIK
 
+=pkg Business::ID::NOPPBB
+
 =pkg Business::ID::NPWP
 
 =pkg Business::ID::SIM
@@ -80,6 +82,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Data::Sah
 
+=pkg Data::Sah::Util
+
 =pkg Devel::EndStats
 
 =pkg File::RsyBak
@@ -114,6 +118,10 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Locale::ID::GuessGender::FromFirstName
 
+=pkg Locale::ID::Locality
+
+=pkg Locale::ID::Province
+
 =pkg Log::Any::Adapter::Callback
 
 =pkg Log::Any::Adapter::ScreenColoredLevel
@@ -146,15 +154,69 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Passwd::Unix::Alt
 
+=pkg Perinci
+
+=pkg Perinci::Access::HTTP::Client
+
+=pkg Perinci::Access::HTTP::Server
+
+=pkg Perinci::Access::TCP::Client
+
+=pkg Perinci::Access::TCP::Server
+
+=pkg Perinci::BashComplete
+
+=pkg Perinci::CmdLine
+
+=pkg Perinci::Examples
+
+=pkg Perinci::Exporter
+
+=pkg Perinci::Object
+
+=pkg Perinci::Sub::ConvertArgs::Array
+
+=pkg Perinci::Sub::DepChecker
+
+=pkg Perinci::Sub::Gen::AccessTable
+
+=pkg Perinci::Sub::Gen::ForModule
+
+=pkg Perinci::Sub::GetArgs::Argv
+
+=pkg Perinci::Sub::GetArgs::Array
+
+=pkg Perinci::Sub::To::HTML
+
+=pkg Perinci::Sub::To::POD
+
+=pkg Perinci::Sub::To::Text
+
+=pkg Perinci::Sub::Undo::Storage
+
+=pkg Perinci::Sub::Wrapper
+
+=pkg Perinci::Sub::property::drops_privilege
+
+=pkg Perinci::Sub::property::retry
+
+=pkg Perinci::Sub::property::timeout
+
+=pkg Perinci::Use
+
 =pkg Pod::Weaver::Plugin::SubSpec
 
 =pkg Process::KillTree
 
-=pkg RSS::From::Forum::VBulletin
-
 =pkg RSS::From::Forum::vBulletin
 
+=pkg Riap
+
+=pkg Rinci
+
 =pkg SHARYANTO::Utils
+
+=pkg Serabi
 
 =pkg Setup::File
 
@@ -167,60 +229,6 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Setup::Text::Snippet
 
 =pkg Setup::Unix::User
-
-=pkg Sub::Spec
-
-=pkg Sub::Spec::BashComplete
-
-=pkg Sub::Spec::Clause::drops_privilege
-
-=pkg Sub::Spec::CmdLine
-
-=pkg Sub::Spec::ConvertArgs::Array
-
-=pkg Sub::Spec::DepChecker
-
-=pkg Sub::Spec::Examples
-
-=pkg Sub::Spec::Exporter
-
-=pkg Sub::Spec::Gen::ForModule
-
-=pkg Sub::Spec::Gen::ReadTable
-
-=pkg Sub::Spec::GetArgs::Argv
-
-=pkg Sub::Spec::GetArgs::Array
-
-=pkg Sub::Spec::GetArgs::GetPost
-
-=pkg Sub::Spec::GetArgs::Hash
-
-=pkg Sub::Spec::HTTP
-
-=pkg Sub::Spec::HTTP::Server
-
-=pkg Sub::Spec::Object
-
-=pkg Sub::Spec::Runner
-
-=pkg Sub::Spec::To::HTML
-
-=pkg Sub::Spec::To::Org
-
-=pkg Sub::Spec::To::Pod
-
-=pkg Sub::Spec::To::Text
-
-=pkg Sub::Spec::URI
-
-=pkg Sub::Spec::URI::http
-
-=pkg Sub::Spec::Undo::Storage
-
-=pkg Sub::Spec::Use
-
-=pkg Sub::Spec::Wrapper
 
 =pkg Text::sprintfn
 
