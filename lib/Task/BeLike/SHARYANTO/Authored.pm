@@ -38,6 +38,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Bench
 
+=pkg Builtin::Logged
+
 =pkg Business::ID::NIK
 
 =pkg Business::ID::NOPPBB
@@ -156,13 +158,7 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Perinci
 
-=pkg Perinci::Access::HTTP::Client
-
 =pkg Perinci::Access::HTTP::Server
-
-=pkg Perinci::Access::TCP::Client
-
-=pkg Perinci::Access::TCP::Server
 
 =pkg Perinci::BashComplete
 
@@ -170,7 +166,7 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Perinci::Examples
 
-=pkg Perinci::Exporter
+=pkg Perinci::Gen::ForModule
 
 =pkg Perinci::Object
 
@@ -180,31 +176,29 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Perinci::Sub::Gen::AccessTable
 
-=pkg Perinci::Sub::Gen::ForModule
-
 =pkg Perinci::Sub::GetArgs::Argv
 
 =pkg Perinci::Sub::GetArgs::Array
-
-=pkg Perinci::Sub::To::HTML
-
-=pkg Perinci::Sub::To::POD
-
-=pkg Perinci::Sub::To::Text
-
-=pkg Perinci::Sub::Undo::Storage
 
 =pkg Perinci::Sub::Wrapper
 
 =pkg Perinci::Sub::property::drops_privilege
 
+=pkg Perinci::Sub::property::result_postfilter
+
 =pkg Perinci::Sub::property::retry
 
 =pkg Perinci::Sub::property::timeout
 
+=pkg Perinci::To::HTML
+
+=pkg Perinci::To::POD
+
+=pkg Perinci::To::Text
+
 =pkg Perinci::Use
 
-=pkg Pod::Weaver::Plugin::SubSpec
+=pkg Pod::Weaver::Plugin::Perinci
 
 =pkg Process::KillTree
 
@@ -214,9 +208,13 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Rinci
 
+=pkg SHARYANTO::String::Util
+
 =pkg SHARYANTO::Utils
 
 =pkg Serabi
+
+=pkg Setup
 
 =pkg Setup::File
 
@@ -229,6 +227,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Setup::Text::Snippet
 
 =pkg Setup::Unix::User
+
+=pkg Test::Setup
 
 =pkg Text::sprintfn
 
