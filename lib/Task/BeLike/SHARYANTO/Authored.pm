@@ -12,8 +12,6 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkgroup Included modules
 
-=pkg Acme::CPANAuthors::Female
-
 =pkg Acme::CPANAuthors::Indonesian
 
 =pkg Any::Renderer::Pretty::Console
@@ -40,6 +38,14 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Builtin::Logged
 
+=pkg Business::BankCard
+
+=pkg Business::BankCard::Indonesia
+
+=pkg Business::BankList
+
+=pkg Business::BankList::Indonesia
+
 =pkg Business::ID::NIK
 
 =pkg Business::ID::NOPPBB
@@ -53,6 +59,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Config::Ini::OnDrugs
 
 =pkg Data::Dump::Ala::SHARYANTO
+
+=pkg Data::Dump::Color
 
 =pkg Data::Dump::OneLine
 
@@ -88,11 +96,19 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Devel::EndStats
 
+=pkg Dist::Zilla::PluginBundle::SHARYANTO
+
 =pkg File::RsyBak
 
 =pkg File::Slurp::Shortcuts
 
+=pkg File::Trash::FreeDesktop
+
+=pkg File::Trash::Undoable
+
 =pkg Finance::Bank::ID::BCA
+
+=pkg Finance::Bank::ID::BPRKS
 
 =pkg Finance::Bank::ID::Mandiri
 
@@ -102,7 +118,11 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg HTTP::Daemon::UNIX
 
+=pkg HTTP::Daemon::patch::ipv6
+
 =pkg LWP::Protocol::http::SocketUnixAlt
+
+=pkg LWP::UserAgent::patch::https_hard_timeout
 
 =pkg Language::Expr
 
@@ -130,7 +150,13 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Log::Any::App
 
+=pkg Log::Any::For::Class
+
+=pkg Log::Any::For::DBI
+
 =pkg Log::Dispatch::Dir
+
+=pkg Module::Patch
 
 =pkg Object::BlankStr
 
@@ -158,6 +184,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Perinci
 
+=pkg Perinci::Access::HTTP::Client
+
 =pkg Perinci::Access::HTTP::Server
 
 =pkg Perinci::BashComplete
@@ -175,6 +203,10 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Perinci::Sub::DepChecker
 
 =pkg Perinci::Sub::Gen::AccessTable
+
+=pkg Perinci::Sub::Gen::AccessTable::DBI
+
+=pkg Perinci::Sub::Gen::Undoable
 
 =pkg Perinci::Sub::GetArgs::Argv
 
@@ -195,6 +227,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Perinci::To::POD
 
 =pkg Perinci::To::Text
+
+=pkg Perinci::Tx::Manager
 
 =pkg Perinci::Use
 
