@@ -54,6 +54,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Business::ID::SIM
 
+=pkg CPAN::Critic::Module::Abstract
+
 =pkg Calendar::Indonesia::Holiday
 
 =pkg Config::Ini::OnDrugs
@@ -94,6 +96,10 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Data::Sah::Util
 
+=pkg Data::Unixish
+
+=pkg Data::Unixish::Implementation
+
 =pkg Devel::EndStats
 
 =pkg Dist::Zilla::PluginBundle::SHARYANTO
@@ -112,6 +118,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Finance::Bank::ID::Mandiri
 
+=pkg Finance::Currency::Convert::KlikBCA
+
 =pkg Gepok
 
 =pkg Git::Bunch
@@ -123,6 +131,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg LWP::Protocol::http::SocketUnixAlt
 
 =pkg LWP::UserAgent::patch::https_hard_timeout
+
+=pkg LWP::UserAgent::patch::log_response
 
 =pkg Language::Expr
 
@@ -154,9 +164,13 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Log::Any::For::DBI
 
+=pkg Log::Any::For::LWP
+
 =pkg Log::Dispatch::Dir
 
 =pkg Module::Patch
+
+=pkg Net::HTTP::Methods::patch::log_request
 
 =pkg Object::BlankStr
 
@@ -180,6 +194,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Parse::PhoneNumber::ID
 
+=pkg Parse::VarName
+
 =pkg Passwd::Unix::Alt
 
 =pkg Perinci
@@ -187,6 +203,10 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Perinci::Access::HTTP::Client
 
 =pkg Perinci::Access::HTTP::Server
+
+=pkg Perinci::Access::TCP::Client
+
+=pkg Perinci::Access::TCP::Server
 
 =pkg Perinci::BashComplete
 
@@ -264,7 +284,11 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Test::Setup
 
+=pkg Text::PrettyTable
+
 =pkg Text::sprintfn
+
+=pkg Tie::Diamond
 
 =pkg WWW::GudangAPI
 
