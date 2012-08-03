@@ -14,6 +14,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Acme::CPANAuthors::Indonesian
 
+=pkg Alt::Monkey::Patch::SHARYANTO
+
 =pkg Any::Renderer::Pretty::Console
 
 =pkg Any::Renderer::Pretty::HTML
@@ -60,6 +62,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Config::Ini::OnDrugs
 
+=pkg Data::Clean::JSON
+
 =pkg Data::Dump::Ala::SHARYANTO
 
 =pkg Data::Dump::Color
@@ -97,8 +101,6 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Data::Sah::Util
 
 =pkg Data::Unixish
-
-=pkg Data::Unixish::Implementation
 
 =pkg Devel::EndStats
 
@@ -204,15 +206,17 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Perinci::Access::HTTP::Server
 
-=pkg Perinci::Access::TCP::Client
+=pkg Perinci::Access::Simple::Client
 
-=pkg Perinci::Access::TCP::Server
+=pkg Perinci::Access::Simple::Server
 
 =pkg Perinci::BashComplete
 
 =pkg Perinci::CmdLine
 
 =pkg Perinci::Examples
+
+=pkg Perinci::Exporter
 
 =pkg Perinci::Gen::ForModule
 
@@ -234,6 +238,10 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Perinci::Sub::Wrapper
 
+=pkg Perinci::Sub::property::curry
+
+=pkg Perinci::Sub::property::dies_on_error
+
 =pkg Perinci::Sub::property::drops_privilege
 
 =pkg Perinci::Sub::property::result_postfilter
@@ -248,11 +256,15 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Perinci::To::Text
 
-=pkg Perinci::Tx::Manager
-
 =pkg Perinci::Use
 
+=pkg Perinci::Util
+
+=pkg Perinci::Web
+
 =pkg Pod::Weaver::Plugin::Perinci
+
+=pkg Pod::Weaver::Section::Changes
 
 =pkg Process::KillTree
 
@@ -265,6 +277,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg SHARYANTO::String::Util
 
 =pkg SHARYANTO::Utils
+
+=pkg Sah
 
 =pkg Serabi
 
@@ -282,6 +296,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Setup::Unix::User
 
+=pkg Syntax::Feature::EachOnArray
+
 =pkg Test::Setup
 
 =pkg Text::PrettyTable
@@ -289,6 +305,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Text::sprintfn
 
 =pkg Tie::Diamond
+
+=pkg Unixish
 
 =pkg WWW::GudangAPI
 
