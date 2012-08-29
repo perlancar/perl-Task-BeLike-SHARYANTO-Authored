@@ -22,11 +22,17 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg App::HTMLCalendarMonth::Indonesia
 
+=pkg App::HasPrereqs
+
+=pkg App::LintPrereqs
+
 =pkg App::OrgUtils
 
 =pkg App::SerializeUtils
 
 =pkg App::UniqFiles
+
+=pkg App::dux
 
 =pkg App::perlmv
 
@@ -104,6 +110,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Devel::EndStats
 
+=pkg Dist::Zilla::Plugin::Extras
+
 =pkg Dist::Zilla::PluginBundle::SHARYANTO
 
 =pkg File::RsyBak
@@ -126,15 +134,15 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Git::Bunch
 
-=pkg HTTP::Daemon::UNIX
+=pkg HTTP::Daemon::Patch::IPv6
 
-=pkg HTTP::Daemon::patch::ipv6
+=pkg HTTP::Daemon::UNIX
 
 =pkg LWP::Protocol::http::SocketUnixAlt
 
-=pkg LWP::UserAgent::patch::https_hard_timeout
+=pkg LWP::UserAgent::Patch::HTTPSHardTimeout
 
-=pkg LWP::UserAgent::patch::log_response
+=pkg LWP::UserAgent::Patch::LogResponse
 
 =pkg Language::Expr
 
@@ -147,6 +155,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Lingua::ID::Nums2Words
 
 =pkg Lingua::ID::Words2Nums
+
+=pkg Lingua::SU::Nums2Words
 
 =pkg Lingua::ZH::PinyinConvert::ID
 
@@ -172,7 +182,7 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Module::Patch
 
-=pkg Net::HTTP::Methods::patch::log_request
+=pkg Net::HTTP::Methods::Patch::LogRequest
 
 =pkg Object::BlankStr
 
@@ -202,9 +212,15 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Perinci
 
+=pkg Perinci::Access
+
+=pkg Perinci::Access::Base
+
 =pkg Perinci::Access::HTTP::Client
 
 =pkg Perinci::Access::HTTP::Server
+
+=pkg Perinci::Access::InProcess
 
 =pkg Perinci::Access::Simple::Client
 
@@ -214,6 +230,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Perinci::CmdLine
 
+=pkg Perinci::Easy
+
 =pkg Perinci::Examples
 
 =pkg Perinci::Exporter
@@ -222,39 +240,45 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Perinci::Object
 
+=pkg Perinci::Result::Format
+
 =pkg Perinci::Sub::ConvertArgs::Array
 
+=pkg Perinci::Sub::Dep::pm
+
 =pkg Perinci::Sub::DepChecker
+
+=pkg Perinci::Sub::Gen
 
 =pkg Perinci::Sub::Gen::AccessTable
 
 =pkg Perinci::Sub::Gen::AccessTable::DBI
 
-=pkg Perinci::Sub::Gen::Undoable
-
 =pkg Perinci::Sub::GetArgs::Argv
 
 =pkg Perinci::Sub::GetArgs::Array
 
+=pkg Perinci::Sub::Property::curry
+
+=pkg Perinci::Sub::Property::dies_on_error
+
+=pkg Perinci::Sub::Property::drops_privilege
+
+=pkg Perinci::Sub::Property::result_postfilter
+
+=pkg Perinci::Sub::Property::retry
+
+=pkg Perinci::Sub::Property::timeout
+
 =pkg Perinci::Sub::Wrapper
-
-=pkg Perinci::Sub::property::curry
-
-=pkg Perinci::Sub::property::dies_on_error
-
-=pkg Perinci::Sub::property::drops_privilege
-
-=pkg Perinci::Sub::property::result_postfilter
-
-=pkg Perinci::Sub::property::retry
-
-=pkg Perinci::Sub::property::timeout
 
 =pkg Perinci::To::HTML
 
 =pkg Perinci::To::POD
 
 =pkg Perinci::To::Text
+
+=pkg Perinci::Tx::Manager
 
 =pkg Perinci::Use
 
@@ -288,17 +312,11 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Setup::File::Symlink
 
-=pkg Setup::Multi
-
-=pkg Setup::Test
-
 =pkg Setup::Text::Snippet
 
 =pkg Setup::Unix::User
 
 =pkg Syntax::Feature::EachOnArray
-
-=pkg Test::Setup
 
 =pkg Text::PrettyTable
 
