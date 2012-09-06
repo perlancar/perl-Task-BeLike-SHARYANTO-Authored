@@ -14,8 +14,6 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Acme::CPANAuthors::Indonesian
 
-=pkg Alt::Monkey::Patch::SHARYANTO
-
 =pkg Any::Renderer::Pretty::Console
 
 =pkg Any::Renderer::Pretty::HTML
@@ -68,6 +66,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Config::Ini::OnDrugs
 
+=pkg Crypt::Password::Util
+
 =pkg Data::Clean::JSON
 
 =pkg Data::Dump::Ala::SHARYANTO
@@ -114,6 +114,14 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Dist::Zilla::PluginBundle::SHARYANTO
 
+=pkg File::Append::Undoable
+
+=pkg File::Copy::Undoable
+
+=pkg File::Move::Undoable
+
+=pkg File::Prepend::Undoable
+
 =pkg File::RsyBak
 
 =pkg File::Slurp::Shortcuts
@@ -121,6 +129,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg File::Trash::FreeDesktop
 
 =pkg File::Trash::Undoable
+
+=pkg File::Truncate::Undoable
 
 =pkg Finance::Bank::ID::BCA
 
@@ -181,6 +191,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Log::Dispatch::Dir
 
 =pkg Module::Patch
+
+=pkg Monkey::Patch::Action
 
 =pkg Net::HTTP::Methods::Patch::LogRequest
 
@@ -312,8 +324,6 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Setup::File::Symlink
 
-=pkg Setup::Text::Snippet
-
 =pkg Setup::Unix::User
 
 =pkg Syntax::Feature::EachOnArray
@@ -323,6 +333,10 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Text::sprintfn
 
 =pkg Tie::Diamond
+
+=pkg UUID::Random::Patch::UseMRS
+
+=pkg Unix::Passwd::File
 
 =pkg Unixish
 
