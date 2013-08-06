@@ -14,6 +14,10 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Acme::CPANAuthors::Indonesian
 
+=pkg Alt::Base
+
+=pkg Alt::Log::Any::App::FWR
+
 =pkg Any::Renderer::Pretty::Console
 
 =pkg Any::Renderer::Pretty::HTML
@@ -24,15 +28,27 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg App::LintPrereqs
 
+=pkg App::ListPrereqs
+
 =pkg App::OrgUtils
+
+=pkg App::ParseCPANChanges
 
 =pkg App::SerializeUtils
 
 =pkg App::UniqFiles
 
+=pkg App::cal::id
+
+=pkg App::cpanlists
+
+=pkg App::cpanlists::Server
+
 =pkg App::dux
 
 =pkg App::perlmv
+
+=pkg App::smtpstatus
 
 =pkg Array::Find
 
@@ -52,6 +68,10 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Business::BankList::Indonesia
 
+=pkg Business::ID::BCA
+
+=pkg Business::ID::Mandiri
+
 =pkg Business::ID::NIK
 
 =pkg Business::ID::NOPPBB
@@ -64,7 +84,13 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Calendar::Indonesia::Holiday
 
-=pkg Config::Ini::OnDrugs
+=pkg Carp::Always::Dump
+
+=pkg Carp::Always::SyntaxHighlightSource
+
+=pkg Color::ANSI::Util
+
+=pkg Config::IOD
 
 =pkg Crypt::Password::Util
 
@@ -108,9 +134,21 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Data::Unixish
 
+=pkg Data::Unixish::ansi
+
+=pkg DateTime::Format::Indonesian
+
+=pkg DefHash
+
 =pkg Devel::EndStats
 
+=pkg Dist::Create::TaskBeLikeFavorited
+
 =pkg Dist::Zilla::Plugin::Extras
+
+=pkg Dist::Zilla::Plugin::Rinci::Validate
+
+=pkg Dist::Zilla::Plugin::Test::Rinci
 
 =pkg Dist::Zilla::PluginBundle::SHARYANTO
 
@@ -119,6 +157,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg File::Copy::Undoable
 
 =pkg File::Move::Undoable
+
+=pkg File::Patch::Undoable
 
 =pkg File::Prepend::Undoable
 
@@ -131,6 +171,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg File::Trash::Undoable
 
 =pkg File::Truncate::Undoable
+
+=pkg File::Write::Rotate
 
 =pkg Finance::Bank::ID::BCA
 
@@ -148,9 +190,21 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg HTTP::Daemon::UNIX
 
+=pkg HTTP::Headers::Patch::DontUseStorable
+
+=pkg HTTP::Tiny::Patch::LogAny
+
+=pkg Hash::DefHash
+
+=pkg IOD
+
+=pkg JSON::Color
+
 =pkg LWP::Protocol::http::SocketUnixAlt
 
 =pkg LWP::UserAgent::Patch::HTTPSHardTimeout
+
+=pkg LWP::UserAgent::Patch::LogRequestContent
 
 =pkg LWP::UserAgent::Patch::LogResponse
 
@@ -178,6 +232,12 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Log::Any::Adapter::Callback
 
+=pkg Log::Any::Adapter::Core::Patch::SetDumperIndent
+
+=pkg Log::Any::Adapter::Core::Patch::UseDataDump
+
+=pkg Log::Any::Adapter::Core::Patch::UseDataDumperPerltidy
+
 =pkg Log::Any::Adapter::ScreenColoredLevel
 
 =pkg Log::Any::App
@@ -186,15 +246,23 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Log::Any::For::DBI
 
+=pkg Log::Any::For::HTTP::Tiny
+
 =pkg Log::Any::For::LWP
 
+=pkg Log::Any::For::STDERR
+
 =pkg Log::Dispatch::Dir
+
+=pkg Log::Dispatch::FileWriteRotate
 
 =pkg Module::Patch
 
 =pkg Monkey::Patch::Action
 
 =pkg Net::HTTP::Methods::Patch::LogRequest
+
+=pkg Number::Closest::NonOO
 
 =pkg Object::BlankStr
 
@@ -246,6 +314,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Perinci::Examples
 
+=pkg Perinci::Examples::Bin
+
 =pkg Perinci::Exporter
 
 =pkg Perinci::Gen::ForModule
@@ -259,6 +329,10 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Perinci::Sub::Dep::pm
 
 =pkg Perinci::Sub::DepChecker
+
+=pkg Perinci::Sub::DepUtil
+
+=pkg Perinci::Sub::FeatureUtil
 
 =pkg Perinci::Sub::Gen
 
@@ -282,6 +356,14 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Perinci::Sub::Property::timeout
 
+=pkg Perinci::Sub::PropertyUtil
+
+=pkg Perinci::Sub::To::POD
+
+=pkg Perinci::Sub::To::ReForm
+
+=pkg Perinci::Sub::To::Text
+
 =pkg Perinci::Sub::Wrapper
 
 =pkg Perinci::To::HTML
@@ -298,17 +380,45 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Perinci::Web
 
+=pkg Perl::Stripper
+
+=pkg Pod::Weaver::Plugin::Eval
+
 =pkg Pod::Weaver::Plugin::Perinci
+
+=pkg Pod::Weaver::PluginBundle::SHARYANTO
 
 =pkg Pod::Weaver::Section::Changes
 
+=pkg Process::Govern
+
 =pkg Process::KillTree
+
+=pkg Progress::Any
+
+=pkg Progress::Any::Output
+
+=pkg Progress::Any::Output::Callback
+
+=pkg Progress::Any::Output::LogAny
+
+=pkg Progress::Any::Output::TermMessage
+
+=pkg Progress::Any::Output::TermProgressBar
+
+=pkg Progress::Any::Output::TermProgressBarColor
 
 =pkg RSS::From::Forum::vBulletin
 
 =pkg Riap
 
 =pkg Rinci
+
+=pkg Rinci::Schema
+
+=pkg SHARYANTO
+
+=pkg SHARYANTO::SQL::Schema
 
 =pkg SHARYANTO::String::Util
 
@@ -324,15 +434,49 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Setup::File::Symlink
 
+=pkg Setup::File::TextFragment
+
 =pkg Setup::Unix::User
+
+=pkg Software::Catalog
+
+=pkg Software::Release::Watch
+
+=pkg Software::Release::Watch::sw::wordpress
 
 =pkg Syntax::Feature::EachOnArray
 
-=pkg Text::PrettyTable
+=pkg SyntaxHighlight::Any
+
+=pkg Term::Detect
+
+=pkg Term::ProgressBar::Color
+
+=pkg Test::Rinci
+
+=pkg Test::Sah
+
+=pkg Text::ANSI::Util
+
+=pkg Text::ANSITable
+
+=pkg Text::ANSITable::BorderStyle::Extra
+
+=pkg Text::ANSITable::ColorTheme::Extra
+
+=pkg Text::Fragment
+
+=pkg Text::WideChar::Util
 
 =pkg Text::sprintfn
 
 =pkg Tie::Diamond
+
+=pkg Tie::Handle::FileWriteRotate
+
+=pkg Time::Duration::Patch::Millisecond
+
+=pkg Time::Duration::id
 
 =pkg UUID::Random::Patch::UseMRS
 
@@ -341,6 +485,12 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Unixish
 
 =pkg WWW::GudangAPI
+
+=pkg Web::Detect
+
+=pkg YAML::Tiny::Color
+
+=pkg tainting
 
 =cut
 
