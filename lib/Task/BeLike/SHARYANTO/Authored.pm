@@ -48,6 +48,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg App::perlmv
 
+=pkg App::riap
+
 =pkg App::smtpstatus
 
 =pkg Array::Find
@@ -300,7 +302,7 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Perinci::Access::HTTP::Server
 
-=pkg Perinci::Access::InProcess
+=pkg Perinci::Access::Perl
 
 =pkg Perinci::Access::Simple::Client
 
@@ -366,6 +368,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Perinci::Sub::Wrapper
 
+=pkg Perinci::Sub::Wrapper::Patch::HandlePHPArray
+
 =pkg Perinci::To::HTML
 
 =pkg Perinci::To::POD
@@ -403,8 +407,6 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Progress::Any::Output::LogAny
 
 =pkg Progress::Any::Output::TermMessage
-
-=pkg Progress::Any::Output::TermProgressBar
 
 =pkg Progress::Any::Output::TermProgressBarColor
 
