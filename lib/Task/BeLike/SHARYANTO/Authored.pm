@@ -18,10 +18,6 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Alt::Log::Any::App::FWR
 
-=pkg Any::Renderer::Pretty::Console
-
-=pkg Any::Renderer::Pretty::HTML
-
 =pkg App::HTMLCalendarMonth::Indonesia
 
 =pkg App::HasPrereqs
@@ -53,8 +49,6 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg App::smtpstatus
 
 =pkg Array::Find
-
-=pkg Array::Functions::Undoable
 
 =pkg Array::Iterator
 
@@ -131,8 +125,6 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Data::ModeMerge
 
 =pkg Data::Sah
-
-=pkg Data::Sah::Util
 
 =pkg Data::Unixish
 
@@ -289,8 +281,6 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Parse::PhoneNumber::ID
 
 =pkg Parse::VarName
-
-=pkg Passwd::Unix::Alt
 
 =pkg Perinci
 
