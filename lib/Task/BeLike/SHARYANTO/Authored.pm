@@ -26,6 +26,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg App::ListPrereqs
 
+=pkg App::ListRevDeps
+
 =pkg App::OrgUtils
 
 =pkg App::ParseCPANChanges
@@ -42,9 +44,9 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg App::dux
 
-=pkg App::perlmv
+=pkg App::osnames
 
-=pkg App::riap
+=pkg App::perlmv
 
 =pkg App::smtpstatus
 
@@ -176,6 +178,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Finance::Currency::Convert::KlikBCA
 
+=pkg Gen::Test::Rinci::FuncResult
+
 =pkg Gepok
 
 =pkg Git::Bunch
@@ -234,8 +238,6 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Log::Any::Adapter::ScreenColoredLevel
 
-=pkg Log::Any::App
-
 =pkg Log::Any::For::Class
 
 =pkg Log::Any::For::DBI
@@ -249,6 +251,10 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Log::Dispatch::Dir
 
 =pkg Log::Dispatch::FileWriteRotate
+
+=pkg Media::Info
+
+=pkg Media::Info::Mplayer
 
 =pkg Module::Patch
 
@@ -315,6 +321,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Perinci::Object
 
 =pkg Perinci::Result::Format
+
+=pkg Perinci::Sub::ConvertArgs::Argv
 
 =pkg Perinci::Sub::ConvertArgs::Array
 
@@ -402,6 +410,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg RSS::From::Forum::vBulletin
 
+=pkg RSS::From::Twitter
+
 =pkg Riap
 
 =pkg Rinci
@@ -410,11 +420,25 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg SHARYANTO
 
+=pkg SHARYANTO::Color::Util
+
+=pkg SHARYANTO::Data::Util
+
+=pkg SHARYANTO::File::Util
+
+=pkg SHARYANTO::Number::Util
+
+=pkg SHARYANTO::Package::Util
+
+=pkg SHARYANTO::Proc::Util
+
 =pkg SHARYANTO::SQL::Schema
 
 =pkg SHARYANTO::String::Util
 
 =pkg SHARYANTO::Utils
+
+=pkg SHARYANTO::YAML::Any
 
 =pkg Sah
 
@@ -440,7 +464,7 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg SyntaxHighlight::Any
 
-=pkg Term::Detect
+=pkg Term::Detect::Software
 
 =pkg Term::ProgressBar::Color
 
@@ -483,6 +507,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg YAML::Tiny::Color
 
 =pkg tainting
+
+=pkg version::Restrict
 
 =cut
 
