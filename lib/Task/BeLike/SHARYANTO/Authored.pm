@@ -38,10 +38,6 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg App::cal::id
 
-=pkg App::cpanlists
-
-=pkg App::cpanlists::Server
-
 =pkg App::dux
 
 =pkg App::osnames
@@ -55,6 +51,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Array::Iterator
 
 =pkg Bench
+
+=pkg Borang
 
 =pkg Builtin::Logged
 
@@ -87,8 +85,6 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Carp::Always::SyntaxHighlightSource
 
 =pkg Color::ANSI::Util
-
-=pkg Config::IOD
 
 =pkg Crypt::Password::Util
 
@@ -360,8 +356,6 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Perinci::Sub::To::POD
 
-=pkg Perinci::Sub::To::ReForm
-
 =pkg Perinci::Sub::To::Text
 
 =pkg Perinci::Sub::Wrapper
@@ -458,7 +452,7 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Software::Release::Watch
 
-=pkg Software::Release::Watch::sw::wordpress
+=pkg Software::Release::Watch::SW::wordpress
 
 =pkg Syntax::Feature::EachOnArray
 
