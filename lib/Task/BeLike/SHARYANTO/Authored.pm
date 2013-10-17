@@ -460,36 +460,6 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg SyntaxHighlight::Any
 
-=pkg Task::BeLike::SHARYANTO::Apps
-
-=pkg Task::BeLike::SHARYANTO::Authored
-
-=pkg Task::BeLike::SHARYANTO::AutomatedUpdate
-
-=pkg Task::BeLike::SHARYANTO::Devel
-
-=pkg Task::BeLike::SHARYANTO::Favorited
-
-=pkg Task::BeLike::SHARYANTO::Noted
-
-=pkg Task::BeLike::SHARYANTO::Patches
-
-=pkg Task::BeLike::SHARYANTO::Spec
-
-=pkg Task::Data::Format::Pretty
-
-=pkg Task::Data::Sah
-
-=pkg Task::Data::Unixish
-
-=pkg Task::GudangData::User
-
-=pkg Task::Perinci
-
-=pkg Task::Setup
-
-=pkg Task::Tx::Function
-
 =pkg Term::Detect::Software
 
 =pkg Term::ProgressBar::Color
