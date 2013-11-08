@@ -40,9 +40,13 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg App::dux
 
+=pkg App::norepeat
+
 =pkg App::osnames
 
 =pkg App::perlmv
+
+=pkg App::riap
 
 =pkg App::smtpstatus
 
@@ -90,6 +94,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Data::Clean::JSON
 
+=pkg Data::Clean::ToStringyNumber
+
 =pkg Data::Dump::Ala::SHARYANTO
 
 =pkg Data::Dump::Color
@@ -136,13 +142,17 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Dist::Create::TaskBeLikeFavorited
 
+=pkg Dist::Zilla::Plugin::Author::SHARYANTO::MetaResources
+
+=pkg Dist::Zilla::Plugin::ConvertYAMLChanges
+
 =pkg Dist::Zilla::Plugin::Extras
 
 =pkg Dist::Zilla::Plugin::Rinci::Validate
 
 =pkg Dist::Zilla::Plugin::Test::Rinci
 
-=pkg Dist::Zilla::PluginBundle::SHARYANTO
+=pkg Dist::Zilla::PluginBundle::Author::SHARYANTO
 
 =pkg File::Append::Undoable
 
@@ -194,6 +204,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg JSON::Color
 
+=pkg JSON::Decode::Regexp
+
 =pkg LWP::Protocol::http::SocketUnixAlt
 
 =pkg LWP::UserAgent::Patch::HTTPSHardTimeout
@@ -201,6 +213,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg LWP::UserAgent::Patch::LogRequestContent
 
 =pkg LWP::UserAgent::Patch::LogResponse
+
+=pkg LWP::UserAgent::Patch::Retry
 
 =pkg Language::Expr
 
@@ -284,6 +298,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Parse::VarName
 
+=pkg Path::Naive
+
 =pkg Perinci
 
 =pkg Perinci::Access
@@ -300,8 +316,6 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Perinci::Access::Simple::Server
 
-=pkg Perinci::BashComplete
-
 =pkg Perinci::CmdLine
 
 =pkg Perinci::Easy
@@ -317,6 +331,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Perinci::Object
 
 =pkg Perinci::Result::Format
+
+=pkg Perinci::Sub::Complete
 
 =pkg Perinci::Sub::ConvertArgs::Argv
 
@@ -382,9 +398,15 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Pod::Weaver::Plugin::Perinci
 
-=pkg Pod::Weaver::PluginBundle::SHARYANTO
+=pkg Pod::Weaver::PluginBundle::Author::SHARYANTO
+
+=pkg Pod::Weaver::Section::Bugs::DefaultRT
 
 =pkg Pod::Weaver::Section::Changes
+
+=pkg Pod::Weaver::Section::Homepage::DefaultCPAN
+
+=pkg Pod::Weaver::Section::Source::DefaultGitHub
 
 =pkg Process::Govern
 
@@ -416,6 +438,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg SHARYANTO::Color::Util
 
+=pkg SHARYANTO::Complete::Util
+
 =pkg SHARYANTO::Data::Util
 
 =pkg SHARYANTO::File::Util
@@ -433,8 +457,6 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg SHARYANTO::String::Util
 
 =pkg SHARYANTO::Utils
-
-=pkg SHARYANTO::YAML::Any
 
 =pkg Sah
 
