@@ -18,6 +18,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Alt::Log::Any::App::FWR
 
+=pkg App::ExecIf
+
 =pkg App::HTMLCalendarMonth::Indonesia
 
 =pkg App::HasPrereqs
@@ -40,11 +42,15 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg App::dux
 
+=pkg App::jpath
+
 =pkg App::norepeat
 
 =pkg App::osnames
 
 =pkg App::perlmv
+
+=pkg App::pretty
 
 =pkg App::riap
 
@@ -150,6 +156,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Dist::Zilla::Plugin::Rinci::Validate
 
+=pkg Dist::Zilla::Plugin::Rinci::Wrap
+
 =pkg Dist::Zilla::Plugin::Test::Rinci
 
 =pkg Dist::Zilla::PluginBundle::Author::SHARYANTO
@@ -238,6 +246,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Locale::ID::Province
 
+=pkg Locale::TextDomain::UTF8
+
 =pkg Log::Any::Adapter::Callback
 
 =pkg Log::Any::Adapter::Core::Patch::SetDumperIndent
@@ -287,6 +297,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Org::To::Pod
 
 =pkg Org::To::Text
+
+=pkg Org::To::VCF
 
 =pkg Parse::Netstat
 
@@ -370,19 +382,13 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 
 =pkg Perinci::Sub::PropertyUtil
 
-=pkg Perinci::Sub::To::POD
-
-=pkg Perinci::Sub::To::Text
-
 =pkg Perinci::Sub::Wrapper
 
 =pkg Perinci::Sub::Wrapper::Patch::HandlePHPArray
 
+=pkg Perinci::To::Doc
+
 =pkg Perinci::To::HTML
-
-=pkg Perinci::To::POD
-
-=pkg Perinci::To::Text
 
 =pkg Perinci::Tx::Manager
 
@@ -409,8 +415,6 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg Pod::Weaver::Section::Source::DefaultGitHub
 
 =pkg Process::Govern
-
-=pkg Process::KillTree
 
 =pkg Progress::Any
 
@@ -447,6 +451,8 @@ Excluded are other Task::* modules, or modules already deletd from CPAN.
 =pkg SHARYANTO::Number::Util
 
 =pkg SHARYANTO::Package::Util
+
+=pkg SHARYANTO::Proc::Daemon::Prefork
 
 =pkg SHARYANTO::Proc::Util
 
